@@ -1,0 +1,173 @@
+/*Animações*/
+
+@keyframes animacao-caixa {
+    from{
+        background: rgb(67, 4, 139);
+        top: 0;
+        left: 0;
+    }
+    to{
+        background: rgb(206, 19, 19);
+        border-radius: 5000px;
+        top: 43%;
+        left: 43%;
+    }
+} 
+
+@keyframes animacao-caixa2 {
+    from{
+        background: rgb(67, 4, 139);
+        top: 0;
+        left: 0;
+    }
+    to{
+        background: rgb(221, 236, 7);
+        border-radius: 5000px;
+        top: 43%;
+        left: 43%;
+    }
+} 
+
+@keyframes animacao-caixa3 {
+    from{
+        background: rgb(67, 4, 139);
+        top: 0;
+        left: 0;
+    }
+    to{
+        background: rgb(76, 105, 19);
+        border-radius: 5000px;
+        top: 43%;
+        left: 43%;
+    }
+} 
+
+@keyframes animacao-caixa4 {
+    from{
+        background: rgb(206, 19, 19);
+        top: 0;
+        right: 0;
+    }
+    to{
+        background: rgb(67, 4, 139);
+        border-radius: 5000px;
+        top: 0;
+        right: 390px;
+    }
+} 
+
+@keyframes animacao-caixa5 {
+    from{
+        background: rgb(221, 236, 7);
+        top: 0;
+        right: 0;
+    }
+    to{
+        background: rgb(67, 4, 139);
+        border-radius: 5000px;
+        top: 0;
+        right: 390px;
+    }
+} 
+
+@keyframes animacao-caixa6 {
+    from{
+        background: rgb(76, 105, 19);
+        top: 0;
+        right: 0;
+    }
+    to{
+        background: rgb(67, 4, 139);
+        border-radius: 5000px;
+        top: 0;
+        right: 390px;
+    }
+} 
+
+#caixas{
+    padding: 50px;
+}
+
+#caixas2{
+    padding: 50px;
+    margin-top: -700px;
+    margin-left: 1200px;
+}
+
+#caixa{
+    width: 200px;
+    height: 200px;
+    background: rgb(67, 4, 139);
+    position: relative;
+    border-radius: 5000px;
+    animation-name: animacao-caixa;
+    animation-duration:4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#caixa2{
+    width: 200px;
+    height: 200px;
+    background: rgb(67, 4, 139);
+    position: relative;
+    border-radius: 5000px;
+    animation-name: animacao-caixa2;
+    animation-duration:4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#caixa3{
+    width: 200px;
+    height: 200px;
+    background: rgb(67, 4, 139);
+    position: relative;
+    border-radius: 5000px;
+    animation-name: animacao-caixa3;
+    animation-duration:4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#caixa4{
+    width: 200px;
+    height: 200px;
+    background: rgb(206, 19, 19);
+    position: relative;
+    border-radius: 5000px;
+    animation-name: animacao-caixa4;
+    animation-duration:4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#caixa5{
+    width: 200px;
+    height: 200px;
+    background: rgb(221, 236, 7);
+    position: relative;
+    border-radius: 5000px;
+    animation-name: animacao-caixa5;
+    animation-duration:4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#caixa6{
+    width: 200px;
+    height: 200px;
+    background: rgb(76, 105, 19);
+    position: relative;
+    border-radius: 5000px;
+    animation-name: animacao-caixa6;
+    animation-duration:4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
